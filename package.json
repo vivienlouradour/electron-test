@@ -1,0 +1,15 @@
+{
+  "name": "electrontest",
+  "version": "1.0.0",
+  "description": "Test du framework electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Vivien Louradour",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^1.8.2",
+    "electron-packager": "^11.0.0"
+  }
+}
