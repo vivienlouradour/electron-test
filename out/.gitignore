@@ -1,4 +1,0 @@
-#Utile pour ignore tout le contenu du répertoire mais garder le répertoire vide
-*
-*/
-!.gitignore

@@ -1,12 +1,32 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <link rel="stylesheet" href="src/assets/css/photon.min.css">
+
+  <link rel="import" href="src/sections/list/list.html">
+
+  <title>Electron test app</title>
 </head>
+
 <body>
-    <h1>Electron test app</h1>
+  <div class="window">
+    <div class="window-content">
+      <div class="pane-sm sidebar">       
+        <h1>Hello</h1> 
+      </div>
+      <div class="pane">
+        <main class="content js-content"></main>
+      </div>
+
+      <script>
+        require('./src/assets/imports')
+        require('./src/assets/ex-links')
+      </script>
+
+    </div>
+  </div>
 </body>
+
 </html>

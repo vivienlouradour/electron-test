@@ -18,6 +18,9 @@ Tutoriel : https://zestedesavoir.com/tutoriels/996/vos-applications-avec-electro
 Dans le répertoire racine de l'application :  
 `npm install` 
 
+### Lancement de l'appli
+`npm start`
+
 ### Publication de l'appli
 Dans le répertoire racine de l'application :  
 `electron-packager ./ --all --out out/ [--overwrite]`
