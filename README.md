@@ -2,7 +2,7 @@
 **Application de test du framework electron**  
 *Vivien Louradour*
    
-Tutoriel : https://zestedesavoir.com/tutoriels/996/vos-applications-avec-electron/  
+Tutoriel utilisé : https://zestedesavoir.com/tutoriels/996/vos-applications-avec-electron/  
   
 
 ### Prérequis  
